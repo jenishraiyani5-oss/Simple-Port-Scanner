@@ -63,11 +63,6 @@ make
 ./simplePortScanner --target 192.168.1.1 --ports 1-1024
 
 ```
-
-> [!TIP]
-> This project supports (https://www.google.com/search?q=https://github.com/casey/just) as a command runner. Type `just` in your terminal to view all project commands.
-> *Quick Install:* `curl -sSf https://just.systems/install.sh | bash -s -- --to ~/.local/bin`
-
 ---
 
 ## Usage Examples
