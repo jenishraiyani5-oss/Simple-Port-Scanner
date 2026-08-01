@@ -11,6 +11,7 @@ find_package(Boost REQUIRED COMPONENTS program_options)
 
 add_executable(simplePortScanner
     main.cpp
+    ./src/PortScanner.cpp
 )
 
 target_link_libraries(simplePortScanner
