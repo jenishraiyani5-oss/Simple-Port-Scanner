@@ -65,7 +65,7 @@ make
 ```
 
 > [!TIP]
-> This project supports [just](https://www.google.com/search?q=https://github.com/casey/just) as a command runner. Type `just` in your terminal to view all project commands.
+> This project supports (https://www.google.com/search?q=https://github.com/casey/just) as a command runner. Type `just` in your terminal to view all project commands.
 > *Quick Install:* `curl -sSf https://just.systems/install.sh | bash -s -- --to ~/.local/bin`
 
 ---
