@@ -172,3 +172,6 @@ void PortScanner::scan() {
                               }
                           }));
 }
+PortScanner::PortScanner()
+{
+}
