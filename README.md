@@ -86,11 +86,12 @@ Step-by-step guides covering security theory, network mechanics, and implementat
 
 | :--- | :--- |
 
-| [00 - Overview](./learn/00-overview.md) | Prerequisites and initial setup |
-| [01 - Concepts](./learn/01-concepts.md) | Security theory and scan mechanics |
-| [02 - Architecture](./learn/02-architecture.md) | System design & asynchronous data flow |
-| [03 - Implementation](./learn/03-implementation.md) | Code walkthrough (C++ & Boost.Asio) |
-| [04 - Challenges](./learn/04-challenges.md) | Exercises and code extension ideas |
+## Learn
+| [00 - Overview](./LEARN.md#00---overview) | Prerequisites and initial setup |
+| [01 - Concepts](./LEARN.md#01---concepts) | Security theory and scan mechanics |
+| [02 - Architecture](./LEARN.md#02---architecture) | System design & asynchronous data flow |
+| [03 - Implementation](./LEARN.md#03---implementation) | Code walkthrough (C++ & Boost.Asio) |
+| [04 - Challenges](./LEARN.md#04---challenges) | Exercises and code extension ideas |
 ---
 
 ## License
