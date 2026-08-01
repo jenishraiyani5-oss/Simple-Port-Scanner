@@ -1,4 +1,4 @@
-make_minimum_required(VERSION 3.15)
+cmake_minimum_required(VERSION 3.15)
 
 cmake_policy(SET CMP0167 NEW)
 
@@ -16,5 +16,4 @@ add_executable(simplePortScanner
 target_link_libraries(simplePortScanner
     Boost::program_options
 )
-
 
