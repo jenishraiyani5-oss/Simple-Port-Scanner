@@ -37,6 +37,8 @@ simple-port-scanner/
 
 ## 1. CLI Construction with Boost.Program_Options
 
+```
+
 ### Option Definitions
 
 In `main.cpp`, command-line flags are configured with type checking and default values[cite: 6]:
@@ -50,6 +52,7 @@ desc.add_options()
     ("concurrency,t", po::value<int>()->default_value(100), "Max concurrent scan worker operations")
     ("timeout,e", po::value<uint8_t>()->default_value(2)->value_name("sec"), "Connection timeout in seconds");
 ```[cite: 6]
+
 
 ### Displaying Usage Instructions
 
@@ -68,6 +71,7 @@ if (vm.count("help")) {
 ```[cite: 6]
 
 ---
+```
 
 ## 2. Core Scanner Implementation
 
@@ -144,6 +148,8 @@ void PortScanner::scan() {
 
 ---
 
+```
+
 ## 3. Key Technical Mechanics
 
 ### Memory Safety & Lifetime Management
@@ -164,6 +170,7 @@ boost::asio::bind_executor(strand, handler_closure);
 ```[cite: 5, 6]
 
 ---
+```
 
 ## 4. Port Specification & Parsing Logic
 
@@ -192,6 +199,7 @@ void PortScanner::parse_port(std::string& port) {
 ```[cite: 6]
 
 ---
+```
 
 ## 5. Common Implementation Hazards
 
@@ -214,6 +222,7 @@ void PortScanner::parse_port(std::string& port) {
 mkdir -p build && cd build
 cmake -DCMAKE_BUILD_TYPE=Debug ..
 make
+```
 
 # Release Build (Performance Optimized)
 mkdir -p build && cd build
